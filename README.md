@@ -15,3 +15,14 @@ Arrays.sort(input1);
 			}*/
 		}
 		return sum;
+  Arrays.sort(input1);
+  Arrays.sort(input2);
+  for(int i=0;i<input1.length;i++)
+  {
+	  if(input1[i]<0||input2[i]<0)
+		  return "Invalid";
+	  if(input1[i]!=input2[i])
+		  return "Unequal"; 
+		  
+  }
+  return "Equal";
